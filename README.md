@@ -1,5 +1,5 @@
 # TestJmeter
-[![CircleCI](Script Básico de consulta a un API)
+[![CircleCI](Script Básico de consulta a un API)]
 
 - Se generan dos casos de prueba positivos
 
