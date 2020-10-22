@@ -14,10 +14,10 @@
  
   Scenario: Consulta de un API
   
-  Given I Set GET service API
+  	Given I Set GET service API
   
-  When I Set request Header
+  	When I Set request Header
   
-  And send GET HTTPS request
+ 	And send GET HTTPS request
   
-  then I receive valid HTTPS request code 202
+ 	then I receive valid HTTPS request code 202
