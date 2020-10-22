@@ -15,9 +15,6 @@
   Scenario: Consulta de un API
   
   	Given I Set GET service API
-  
-  	When I Set request Header
-  
- 	And send GET HTTPS request
-  
- 	then I receive valid HTTPS request code 202
+    	When I Set request Header
+  	And send GET HTTPS request
+  	then I receive valid HTTPS request code 202
