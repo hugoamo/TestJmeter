@@ -13,8 +13,9 @@
   opteniendo una repsuesta del codigo del estado
  
   Scenario: Consulta de un API
-  
+  ```xml
   	Given I Set GET service API
     	When I Set request Header
   	And send GET HTTPS request
   	then I receive valid HTTPS request code 202
+  ```
